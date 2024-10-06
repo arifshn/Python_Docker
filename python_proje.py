@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 import requests
-
+#.
 def hava_durumu_al(sehir, api_anahtari):
     try:
         url = f"http://api.openweathermap.org/data/2.5/weather?q={sehir}&appid={api_anahtari}&units=metric"
